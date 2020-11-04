@@ -4,8 +4,8 @@ resources:
     source: my-shared-repo # Name of the pipeline referenced by the pipeline resource
     trigger: 
       branches:
-      - releases/*
-      - main
+      - refs/heads/releases/*
+      - refs/heads/main
 
 trigger:
 - releases/*
