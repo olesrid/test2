@@ -8,8 +8,8 @@ resources:
       - main
 
 trigger:
-- main
 - releases/*
+- main
 
 pool:
   vmImage: 'ubuntu-latest'
