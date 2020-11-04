@@ -1,11 +1,11 @@
-# resources:
-#   pipelines:
-#   - pipeline: mysharedrepo   # Name of the pipeline resource
-#     source: my-shared-repo # Name of the pipeline referenced by the pipeline resource
-#     trigger: 
-#       branches:
-#       - releases/*
-#       - main
+resources:
+  pipelines:
+  - pipeline: mysharedrepo   # Name of the pipeline resource
+    source: my-shared-repo # Name of the pipeline referenced by the pipeline resource
+    trigger: 
+      branches:
+      - releases/*
+      - main
 
 trigger:
 - releases/*
