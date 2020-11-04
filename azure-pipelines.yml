@@ -8,7 +8,7 @@ resources:
       - main
 
 trigger:
-- master
+- main
 
 pool:
   vmImage: 'ubuntu-latest'
